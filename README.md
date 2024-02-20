@@ -17,18 +17,20 @@ This repository contains the implementation of emotion classification models usi
    pip install -r requirements.txt
    ```
 
-3. Training the Model
+3. Data Preparation
+
+      Place your EEG dataset in CSV format inside the `data/` directory. The dataset should have features as columns, with the last column representing the emotion labels. you can donwload [here](https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions/data)
+
+4. Training the Model
 
     ```bash
     python src/main.py
     ```
 
+
 ## Dataset
-This is a dataset of EEG brainwave data that. The data was collected from two people (1 male, 1 female) for 3 minutes per state - positive, neutral, negative. We used a Muse EEG headband which recorded the TP9, AF7, AF8 and TP10 EEG placements via dry electrodes. Six minutes of resting neutral data is also recorded. you can find this dataset in [kaggle](https://www.kaggle.com/datasets/birdy654/eeg-brainwave-dataset-feeling-emotions/data)
+This is a dataset of EEG brainwave data that. The data was collected from two people (1 male, 1 female) for 3 minutes per state - positive, neutral, negative. We used a Muse EEG headband which recorded the TP9, AF7, AF8 and TP10 EEG placements via dry electrodes. Six minutes of resting neutral data is also recorded. 
 
-## Data Preparation
-
-Place your EEG dataset in CSV format inside the `data/` directory. The dataset should have features as columns, with the last column representing the emotion labels.
 
 
 
