@@ -35,7 +35,7 @@ Place your EEG dataset in CSV format inside the `data/` directory. The dataset s
 ## Results
 
 
-The results of our emotion classification models are documented comprehensively to facilitate analysis and comparison between the GRU and LSTM models. For each model, we have generated and stored the following artifacts:
+The results of our emotion classification models are documented comprehensively to facilitate analysis and comparison between the GRU and LSTM models. Generally we got better accuracy from GRU with about **92%**. For each model, we have generated and stored the following artifacts:
 
 ### Classification Report
 
